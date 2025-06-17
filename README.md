@@ -1,7 +1,7 @@
 # 🖼️ Image Background Remover
 <br />
 <br />
-🚀 Live Demo: https://background-remover-frontend.vercel.app   
+🚀 Live Demo: https://background-remover-frontend-gh767wdkr-phero20s-projects.vercel.app
 <br />
 <br />
 A clean and intuitive background remover app using the ClipDrop API and MERN stack. Authenticated users can quickly remove image backgrounds by spending credits, which are purchasable via Razorpay (Demo). Simple. Fast. Transparent.  
