@@ -12,7 +12,7 @@ export default function Steps() {
           <img className="max-w-9" src={assets.upload_icon} alt="" />
           <div>
             <p className="text-xl text-white font-medium">Upload image</p>
-            <p className="text-sm text-neutral-300 mt-1">Upload the image you want <br /> to remove background</p>
+            <p className="text-sm text-neutral-300 mt-1">Upload the image you want to <br /> remove background</p>
           </div>
         </div>
          <div className="flex items-start gap-4 bg-gradient-to-t from-[#8b4d44] to-[#b48076] border drop-shadow-md p-7 pb-10 rounded-xl hover:scale-105 transition-all duration-500">
