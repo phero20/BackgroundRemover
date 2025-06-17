@@ -23,6 +23,9 @@
     background-size: cover;
 }
 
+.logo {
+  filter: sepia(100%) hue-rotate(330deg) saturate(500%);
+}
 
 
 .bg-layer{

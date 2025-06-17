@@ -10,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-[#fffff1]">
       <ToastContainer position="bottom-right" />
       <Navbar />
       <Routes>

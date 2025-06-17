@@ -10,7 +10,7 @@ export default function Header() {
       <div>
         <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold text-neutral-700 leading-tight">
           Remove the <br className="max-md:hidden" />
-          <span className="bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-[#8b4d44] to-[#b48076] bg-clip-text text-transparent">
             background
           </span>
           from <br className="max-md:hidden" /> images for free.
@@ -23,17 +23,17 @@ export default function Header() {
         <div>
           <input onChange={e=>removeBg(e.target.files[0])} type="file" accept="image/*" id="upload1" hidden />
           <label
-            className="inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-r from-violet-500 to-fuchsia-500 m-auto hover:scale-105 transition-all duration-700"
+            className="inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-r from-[#8b4d44] to-[#b48076] m-auto hover:scale-105 transition-all duration-700"
             htmlFor="upload1"
           >
             <img width={20} src={assets.upload_btn_icon} alt="" />
-            <p className="text-white text-sm">Upload your image</p>
+            <p className="text-white text-sm font-medium">Upload your image</p>
           </label>
         </div>
       </div>
 
       <div className="w-full max-w-md">
-        <img src={assets.header_img} alt="" />
+        <img src={assets.header_img} className="rounded-2xl" alt="" />
       </div>
     </div>
   );
