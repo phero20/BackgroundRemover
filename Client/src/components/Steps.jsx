@@ -12,21 +12,21 @@ export default function Steps() {
           <img className="max-w-9" src={assets.upload_icon} alt="" />
           <div>
             <p className="text-xl text-white font-medium">Upload image</p>
-            <p className="text-sm text-neutral-300 mt-1">This is a demo text, will replace it later. <br /> This is a demo..</p>
+            <p className="text-sm text-neutral-300 mt-1">Upload the image you want <br /> to remove background</p>
           </div>
         </div>
          <div className="flex items-start gap-4 bg-gradient-to-t from-[#8b4d44] to-[#b48076] border drop-shadow-md p-7 pb-10 rounded-xl hover:scale-105 transition-all duration-500">
           <img className="max-w-7" src={assets.remove_bg_icon} alt="" />
           <div>
             <p className="text-xl font-medium text-white">Remove background</p>
-            <p className="text-sm text-neutral-300 mt-1">This is a demo text, will replace it later. <br /> This is a demo..</p>
+            <p className="text-sm text-neutral-300 mt-1">The background will be removed <br /> automatically</p>
           </div>
         </div>
          <div className="flex items-start gap-4 bg-gradient-to-l from-[#8b4d44] to-[#b48076] border drop-shadow-md p-7 pb-10 rounded-xl hover:scale-105 transition-all duration-500">
           <img className="max-w-9" src={assets.download_icon} alt="" />
           <div>
             <p className="text-xl font-medium text-white">Download image</p>
-            <p className="text-sm text-neutral-300 mt-1">This is a demo text, will replace it later. <br /> This is a demo..</p>
+            <p className="text-sm text-neutral-300 mt-1">Download the final image with <br /> transparent background</p>
           </div>
         </div>
       </div>
