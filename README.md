@@ -8,7 +8,7 @@ A clean and intuitive background remover app using the ClipDrop API and MERN sta
 <br/>
 <br/>
 
-🏆 Features  
+# 🏆 Features  
  Clerk Authentication, Secure login/signup with Clerk, Protected routes and session management  
  Background Remover (ClipDrop), Upload an image and remove its background in seconds, Transparent result delivered instantly  
 Credit System , Each background removal costs 1 credit , Purchase credits easily via Razorpay , Access restricted if no credits left  
@@ -17,7 +17,7 @@ Credit System , Each background removal costs 1 credit , Purchase credits easily
 
 <br/>
 <br/>
-🛠 Tech Stack      <br/>
+#  🛠 Tech Stack      <br/>
 Frontend: React, Tailwind CSS    <br/>  
 Backend: Node.js, Express.js <br/>
 Database: MongoDB (Mongoose)      <br/>
@@ -27,7 +27,7 @@ Background Removal: ClipDrop API      <br/>
 
 <br/>
 <br/>
-🔄 How It Works  <br/>
+#  🔄 How It Works  <br/>
 🔑 Sign in with Clerk  <br/>
 📤 Upload the image you want to remove background <br/>
 ✨ Background is auto-removed with ClipDrop API <br/>
